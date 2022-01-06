@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar" tools:targetApi="lollipop">
+        <item name="android:colorPrimary" tools:targetApi="lollipop">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark" tools:targetApi="lollipop">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="android:colorControlNormal">@color/colorControlNormal</item>
+    </style>
+    <style name="FullScreen" parent="@android:style/Theme.Material.Light.NoActionBar.Fullscreen" tools:targetApi="lollipop">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="android:colorControlNormal">@color/colorControlNormal</item>
+    </style>
+    <style name="NoActionBar" parent="@android:style/Theme.Material.Light.NoActionBar" tools:targetApi="lollipop">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+        <item name="android:colorControlNormal">@color/colorControlNormal</item>
+    </style>
+    <style name="NoStatusBar" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

@@ -1,0 +1,33 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="2dp"
+		android:background="#454473"
+		android:gravity="center_horizontal|center_vertical"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/button1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="import file"
+			android:textSize="12sp"
+			android:textColor="#FFFFFF" />
+	</LinearLayout>
+	<ListView
+		android:id="@+id/listview1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#454473"
+		android:dividerHeight="0dp"
+		android:divider="@null"
+		android:choiceMode="none" />
+</LinearLayout>
